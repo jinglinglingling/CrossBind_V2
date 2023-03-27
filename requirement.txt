@@ -1,5 +1,0 @@
-tqdm
-termcolor
-pyyaml
-easydict
-Pillow
