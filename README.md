@@ -26,7 +26,7 @@ cd datasets/
 python prepare_pdb_to_xyz.py
 ```
 ### Cross model
-(1) Load structure representation
+(1) Load pre-trained structure representation
 DNA_127
 ```shell
 /models/DNA_127_Structure.pkl
@@ -38,7 +38,8 @@ DNA_181
 (2) Load ESM2 representation
 The details are described in (https://github.com/facebookresearch/esm)
 
-### Training CrossBind
+### Training
+Fine tune the CrossBind modal
 Before the training phase, you can modify your model setting in `cfgs/*yaml`, and choose the `yaml` file you want to use.
 Run full version of CrossBind:
 ```shell
