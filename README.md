@@ -1,7 +1,7 @@
 # Protein Decoy
 Codes of exploiting SparseConvNet to conduct protein decoy.
 ## Getting Started
-### Setup
+### Setup 111
 (1) The code is tested on Ubuntu 16.04 LTS & 18.04 LTS with PyTorch 1.3 CUDA 10.1 installed.
 ```shell
 conda install pytorch==1.3.0 cudatoolkit=10.1 -c pytorch
