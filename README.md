@@ -25,8 +25,20 @@ git clone https://github.com/realbigws/PDB_Tool.git
 cd datasets/
 python prepare_pdb_to_xyz.py
 ```
+### Cross model
+(1) Load structure representation
+DNA_127
+```shell
+/models/DNA_127_Structure.pkl
+```
+DNA_181
+```shell
+/models/Test_181.pkl
+```
+(2) Load ESM2 representation
+The details are described in https://github.com/facebookresearch/esm
 
-### Training and Evaluation
+### Training CrossBind
 Before the training phase, you can modify your model setting in `cfgs/*yaml`, and choose the `yaml` file you want to use.
 Run full version of CrossBind:
 ```shell
