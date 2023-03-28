@@ -32,5 +32,3 @@ Run full version of CrossBind:
 python CrossBind.py --log_dir SparseConv_default --cfg_file cfgs/SparseConv-Cath-Decoys-Clf-Only.yaml --gpu 0
 
 
-In the first-time training, it will cost time to collect data.
-
