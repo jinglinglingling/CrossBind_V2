@@ -36,7 +36,7 @@ DNA_181
 /models/Test_181.pkl
 ```
 (2) Load ESM2 representation
-The details are described in https://github.com/facebookresearch/esm
+The details are described in (https://github.com/facebookresearch/esm)
 
 ### Training CrossBind
 Before the training phase, you can modify your model setting in `cfgs/*yaml`, and choose the `yaml` file you want to use.
