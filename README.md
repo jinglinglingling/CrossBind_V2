@@ -13,8 +13,9 @@ python setup.py develop
 
 
 ### Data Preparation
+
 (1) You can download the dataset (DNA/RNA pdb files) (http://www.csbio.sjtu.edu.cn/bioinf/GraphBind/ , https://github.com/biomed-AI/GraphSite)
-```
+
 (2) To transfer original PDB files to XYZ files, you need prepare [LIG_TOOL](https://github.com/realbigws/PDB_Tool).
 ```shell
 git clone https://github.com/realbigws/PDB_Tool.git
