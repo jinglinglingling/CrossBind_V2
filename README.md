@@ -10,7 +10,7 @@ conda install pytorch==1.4.0 cudatoolkit=10.1 -c pytorch
 ```shell
 cd lib/
 python setup.py develop
-
+```
 
 ### Data Preparation
 
@@ -29,7 +29,7 @@ python prepare_pdb_to_xyz.py
 ### Training and Evaluation
 Before the training phase, you can modify your model setting in `cfgs/*yaml`, and choose the `yaml` file you want to use.
 Run full version of CrossBind:
-```
+```shell
 python CrossBind.py --log_dir SparseConv_default --cfg_file cfgs/SparseConv-Cath-Decoys-Clf-Only.yaml --gpu 0
-
+```
 
