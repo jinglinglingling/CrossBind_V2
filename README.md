@@ -1,3 +1,6 @@
+
+![Figure_Overview (1)](https://github.com/jinglinglingling/CrossBind_V2/assets/50938792/e03ad87e-b065-4004-ba3c-89a4e3fed301)
+
 ### CrossBind
 Codes of protein residue binding prediction.
 ## Getting Started
@@ -45,4 +48,8 @@ Run full version of CrossBind:
 ```shell
 python CrossBind.py --log_dir SparseConv_default --cfg_file cfgs/SparseConv-Cath-Decoys-Clf-Only.yaml --gpu 0
 ```
+
+Visualization Case
+
+![Figure_case](https://github.com/jinglinglingling/CrossBind_V2/assets/50938792/2653a02c-a258-4456-b196-534b77213590)
 
