@@ -2,6 +2,9 @@
 ![Figure_Overview (1)](https://github.com/jinglinglingling/CrossBind_V2/assets/50938792/e03ad87e-b065-4004-ba3c-89a4e3fed301)
 
 ### CrossBind
+
+CrossBind: Collaborative Cross-Modal Identification of Protein Nucleic-Acid-Binding Residues
+
 Codes of protein residue binding prediction.
 ## Getting Started
 ### Setup
